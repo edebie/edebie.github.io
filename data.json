@@ -2,45 +2,63 @@
   "publications": [
     {
       "year": 2025,
+      "venue": "Journal of Field Robotics",
+      "title": "Why Autonomous Vehicles Are Not Ready Yet: A Multi-Disciplinary Review of Problems, Attempted Solutions, and Future Directions",
+      "authors": "X. Dong, M. Cappuccio, F. Alnajjar, L. Ali, H. Al Jassmi, E. Debie, M. Ghasrikhouzani, A. Lanteri, T. McGregor, O. Molloy et al.",
+      "metrics": {
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2025,
+      "venue": "Robotics and Autonomous Systems",
+      "title": "Task-Focused Robotic Swarming: Maximising Effectiveness via Specialised Roles",
+      "authors": "E. Debie, K. Kasmarik, M. Garratt",
+      "doi": "10.1016/j.robot.2025.105133",
+      "metrics": {
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2025,
       "venue": "ICSI 2025",
-      "title": "From Single-tasking Swarming to Multi-tasking Heterogeneous Swarming for Solving Non-uniform Area Coverage Problems",
-      "authors": "S. Mohamed, E. Debie, K. Kasmarik, M. Garratt",
+      "title": "From Single-Task Swarming to Multi-task Heterogeneous Swarming for Solving Non-uniform Area Coverage Problems",
+      "authors": "S. Mohamed, K. Kasmarik, E. Debie, M. Garratt",
       "metrics": {
         "bestPaper": true
       }
     },
     {
+      "year": 2025,
+      "venue": "IJCCI 2025 · Springer",
+      "title": "SA-GA: Surrogate-Assisted Genetic Algorithm for Optimizing Activation Function Approximations in Privacy-Preserving EEG Classification Networks",
+      "authors": "E. Debie, Harshita"
+    },
+    {
       "year": 2024,
-      "venue": "IEEE/CAA Journal of Automatica Sinica",
-      "title": "Explainable AI Framework for Robotic Swarming Enabling Transparent Human-Swarm Teaming",
-      "authors": "E. Debie, R. Glaubius, J. Campbell, M. Garratt, K. Kasmarik",
-      "doi": "10.1109/JAS.2024.124251",
+      "venue": "ACM Computing Surveys",
+      "title": "Swarm Robotics: A Survey from a Multi-Tasking Perspective",
+      "authors": "E. Debie, K. Kasmarik, M. Garratt",
+      "doi": "10.1145/3611652",
       "metrics": {
-        "impactFactor": 15.3,
         "quartile": "Q1"
       }
     },
     {
       "year": 2023,
-      "venue": "IEEE Transactions on Dependable and Secure Computing",
-      "title": "Privacy-Preserving Generative Adversarial Network for EEG Brain Signals",
-      "authors": "E. Debie, N. Moustafa, M. T. Whitty",
-      "doi": "10.1109/TDSC.2023.3265994",
-      "metrics": {
-        "impactFactor": 7.3,
-        "quartile": "Q1"
-      }
+      "venue": "AJCAI 2023 · Springer LNCS",
+      "title": "Generating Collective Motion Behaviour Libraries using Developmental Evolution",
+      "authors": "K. Kasmarik, E. Debie, S. Abpeikar, M. Garratt, H. Qiu, M. Barlow, M. Khan",
+      "doi": "10.1007/978-981-99-8391-9_35"
     },
     {
       "year": 2022,
-      "venue": "IEEE Transactions on Cybernetics",
-      "title": "MultiModal Fusion for Objective Assessment of Cognitive Workload: A Review",
-      "authors": "E. Debie, R. Roosta, J. Fidock, M. Barlow, K. Merrick, S. Anavatti, M. Garratt, H. A. Abbass",
-      "doi": "10.1109/TCYB.2019.2939399",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "title": "Session Invariant EEG Signatures using Elicitation Protocol Fusion and Convolutional Neural Network",
+      "authors": "E. Debie, N. Moustafa, A. Vasilakos",
+      "doi": "10.1109/TDSC.2021.3060775",
       "metrics": {
-        "impactFactor": 11.8,
-        "quartile": "Q1",
-        "citations": 239
+        "quartile": "Q1"
       }
     },
     {
@@ -50,63 +68,173 @@
       "authors": "A. J. Hepworth, D. P. Baxter, A. Hussein, K. J. Yaxley, E. Debie, H. A. Abbass",
       "doi": "10.1109/JAS.2020.1003545",
       "metrics": {
-        "impactFactor": 15.3,
         "quartile": "Q1"
       }
+    },
+    {
+      "year": 2021,
+      "venue": "Human-Intelligent Systems Integration",
+      "title": "Autonomous Recommender System for Reconnaissance Tasks using a Swarm of UAVs and Asynchronous Shepherding",
+      "authors": "E. Debie, H. El-Fiqi, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. Abbass",
+      "doi": "10.1007/s42454-020-00024-w"
+    },
+    {
+      "year": 2021,
+      "venue": "IEEE SMC 2021",
+      "title": "A Neuro-Evolution Approach to Shepherding Swarm Guidance in the Face of Uncertainty",
+      "authors": "E. Debie, H. Singh, S. Elsayed, A. Perry, R. Hunjet, H. Abbass",
+      "doi": "10.1109/SMC52423.2021.9659082"
+    },
+    {
+      "year": 2021,
+      "venue": "Book Chapter · Springer",
+      "title": "Transparent Shepherding: A Rule-Based Learning Shepherd for Human Swarm Teaming",
+      "authors": "E. Debie, R. Fernandez Rojas, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. Abbass",
+      "doi": "10.1007/978-3-030-60898-9_12"
+    },
+    {
+      "year": 2021,
+      "venue": "Book Chapter · Springer",
+      "title": "Human Performance Operating Picture for Shepherding a Swarm of Autonomous Vehicles",
+      "authors": "R. Fernandez Rojas, E. Debie, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. Abbass",
+      "doi": "10.1007/978-3-030-60898-9_13"
     },
     {
       "year": 2020,
       "venue": "IEEE WCCI / IJCNN 2020",
       "title": "A Privacy-Preserving Generative Adversarial Network Method for Securing EEG Brain Signals",
-      "authors": "E. Debie, N. Moustafa, M. T. Whitty",
-      "doi": "10.1109/IJCNN48605.2020.9206683"
+      "authors": "E. Debie, N. Moustafa, M. T. Whitty"
     },
     {
       "year": 2020,
-      "venue": "Swarm and Evolutionary Computation",
-      "title": "Evolutionary Multi-Objective Optimization for Intelligent Task Allocation",
-      "authors": "E. Debie, K. Merrick, S. Anavatti, M. Garratt, H. A. Abbass",
-      "doi": "10.1016/j.swevo.2020.100735",
+      "venue": "Frontiers in Neuroscience",
+      "title": "Electroencephalographic Workload Indicators During Teleoperation of an Unmanned Aerial Vehicle Shepherding a Swarm of Unmanned Ground Vehicles in Contested Environments",
+      "authors": "R. Fernandez Rojas, E. Debie, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. Abbass",
+      "doi": "10.3389/fnins.2020.00040",
       "metrics": {
-        "impactFactor": 10.2,
         "quartile": "Q1"
       }
     },
     {
+      "year": 2020,
+      "venue": "Electronics (MDPI)",
+      "title": "A Review of Intrusion Detection Systems Using Machine and Deep Learning in Internet of Things: Challenges, Solutions and Future Directions",
+      "authors": "J. Asharf, N. Moustafa, H. Khurshid, E. Debie, W. Haider, A. Wahab",
+      "doi": "10.3390/electronics9071177"
+    },
+    {
+      "year": 2020,
+      "venue": "IEEE TrustCom 2020",
+      "title": "Federated TON_IoT Windows Datasets for Evaluating AI-based Security Applications",
+      "authors": "N. Moustafa, M. Hassan, E. Debie, H. Janicke",
+      "doi": "10.1109/TrustCom50675.2020.00114"
+    },
+    {
+      "year": 2020,
+      "venue": "IEEE SSCI 2020",
+      "title": "Path Planning for Shepherding a Swarm in a Cluttered Environment using Differential Evolution",
+      "authors": "S. Elsayed, H. Singh, E. Debie, A. Perry, B. Campbell, R. Hunjel, H. Abbass",
+      "doi": "10.1109/SSCI47803.2020.9308572"
+    },
+    {
+      "year": 2019,
+      "venue": "IEEE Transactions on Cybernetics",
+      "title": "Multimodal Fusion for Objective Assessment of Cognitive Workload: A Review",
+      "authors": "E. Debie, R. Fernandez Rojas, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. A. Abbass",
+      "doi": "10.1109/TCYB.2019.2939399",
+      "metrics": {
+        "quartile": "Q1",
+        "citations": 239
+      }
+    },
+    {
+      "year": 2019,
+      "venue": "ICONIP 2019 · Springer",
+      "title": "Encephalographic Assessment of Situation Awareness in Teleoperation of Human-Swarm Teaming",
+      "authors": "R. Fernandez Rojas, E. Debie, J. Fidock, M. Barlow, K. Kasmarik, S. Anavatti, M. Garratt, H. Abbass",
+      "doi": "10.1007/978-3-030-36808-1_58"
+    },
+    {
       "year": 2019,
       "venue": "Pattern Analysis and Applications",
-      "title": "Implications of the Curse of Dimensionality for Supervised Learning Classifier Systems",
+      "title": "Implications of the Curse of Dimensionality for Supervised Learning Classifier Systems: Theoretical and Empirical Analyses",
       "authors": "E. Debie, K. Shafi",
-      "doi": "10.1007/s10044-019-00793-z",
+      "doi": "10.1007/s10044-017-0649-0",
       "metrics": {
-        "impactFactor": 3.9,
         "quartile": "Q2"
       }
     },
     {
       "year": 2018,
-      "venue": "IEEE Congress on Evolutionary Computation",
-      "title": "An Analysis of XCS Learning in Continuous Multi-Objective Optimization",
-      "authors": "E. Debie, K. Shafi",
-      "doi": "10.1109/CEC.2018.8477681"
+      "venue": "Journal of Defense Modeling and Simulation",
+      "title": "Historical Operational Data Analysis for Defence Preparedness Planning",
+      "authors": "K. Shafi, E. Debie, D. Oliver",
+      "doi": "10.1177/1548512916664803"
+    },
+    {
+      "year": 2018,
+      "venue": "IEEE IJCNN 2018",
+      "title": "Swarm Q-Learning with Knowledge Sharing Within Environments for Formation Control",
+      "authors": "T. Nguyen, H. Nguyen, E. Debie, K. Kasmarik, M. Garratt, H. Abbass"
     },
     {
       "year": 2017,
-      "venue": "Genetic Programming and Evolvable Machines",
-      "title": "Scalability and Generalization of Learning Classifier Systems",
-      "authors": "E. Debie, K. Shafi, H. A. Abbass",
-      "doi": "10.1007/s10710-017-9312-5",
+      "venue": "Computational Intelligence",
+      "title": "On Taxonomy and Evaluation of Feature Selection-Based Learning Classifier System Ensemble Approaches for Data Mining Problems",
+      "authors": "E. Debie, K. Shafi, K. Merrick, C. Lokan",
+      "doi": "10.1111/coin.12099",
       "metrics": {
-        "impactFactor": 2.3,
-        "quartile": "Q3"
+        "quartile": "Q2"
       }
     },
     {
       "year": 2016,
-      "venue": "IEEE Symposium Series on Computational Intelligence",
-      "title": "Multi-Objective Reinforcement Learning for Autonomous Decision Making",
-      "authors": "E. Debie, K. Shafi, H. A. Abbass",
-      "doi": "10.1109/SSCI.2016.7850215"
+      "venue": "ACALCI 2016 · Springer LNCS",
+      "title": "Investigating Multi-Operator Differential Evolution for Feature Selection",
+      "authors": "E. Debie, S. Elsayed, D. Essam, R. Sarker",
+      "doi": "10.1007/978-3-319-28270-1_23"
+    },
+    {
+      "year": 2014,
+      "venue": "IEEE CEC 2014",
+      "title": "An Online Evolutionary Rule Learning Algorithm with Incremental Attribute Discretization",
+      "authors": "E. Debie, K. Shafi, K. Merrick, C. Lokan",
+      "doi": "10.1109/CEC.2014.6900623"
+    },
+    {
+      "year": 2013,
+      "venue": "Evolutionary Intelligence",
+      "title": "Performance Analysis of Rough Set Ensemble of Learning Classifier Systems with Differential Evolution based Rule Discovery",
+      "authors": "K. Merrick, E. Debie, K. Shafi, C. Lokan",
+      "doi": "10.1007/s12065-013-0093-z"
+    },
+    {
+      "year": 2013,
+      "venue": "GECCO 2013",
+      "title": "REUCS-CRG: Reduct based Ensemble of Supervised Classifier System with Combinatorial Rule Generation for Data Mining",
+      "authors": "E. Debie, K. Shafi, C. Lokan",
+      "doi": "10.1145/2464576.2482703"
+    },
+    {
+      "year": 2013,
+      "venue": "IEEE SDE 2013",
+      "title": "Investigating Differential Evolution Based Rule Discovery in Learning Classifier Systems",
+      "authors": "E. Debie, K. Shafi, C. Lokan, K. Merrick",
+      "doi": "10.1109/SDE.2013.6601445"
+    },
+    {
+      "year": 2013,
+      "venue": "IEEE CIEL 2013",
+      "title": "Reduct Based Ensemble of Learning Classifier System for Real-valued Classification Problems",
+      "authors": "E. Debie, K. Shafi, C. Lokan, K. Merrick",
+      "doi": "10.1109/CIEL.2013.6613142"
+    },
+    {
+      "year": 2012,
+      "venue": "SEAL 2012 · Springer LNCS",
+      "title": "Evolution of Intrinsic Motives in Multi-agent Simulations",
+      "authors": "K. Shafi, K. Merrick, E. Debie",
+      "doi": "10.1007/978-3-642-34859-4_20"
     }
   ],
   "grants": [
