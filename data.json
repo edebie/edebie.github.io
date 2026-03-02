@@ -45,18 +45,18 @@
     },
     {
       "year": 2021,
-      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
-      "title": "Multimodal Fusion for Resilient Task Allocation in Heterogeneous Swarm",
-      "authors": "E. Debie, K. Merrick, M. Barlow, S. Anavatti, M. Garratt, H. A. Abbass",
-      "doi": "10.1109/TNNLS.2021.3105664",
+      "venue": "IEEE/CAA Journal of Automatica Sinica",
+      "title": "Human-Swarm-Teaming Transparency and Trust Architecture",
+      "authors": "A. J. Hepworth, D. P. Baxter, A. Hussein, K. J. Yaxley, E. Debie, H. A. Abbass",
+      "doi": "10.1109/JAS.2020.1003545",
       "metrics": {
-        "impactFactor": 14.3,
+        "impactFactor": 15.3,
         "quartile": "Q1"
       }
     },
     {
       "year": 2020,
-      "venue": "IEEE IJCNN",
+      "venue": "IEEE WCCI / IJCNN 2020",
       "title": "A Privacy-Preserving Generative Adversarial Network Method for Securing EEG Brain Signals",
       "authors": "E. Debie, N. Moustafa, M. T. Whitty",
       "doi": "10.1109/IJCNN48605.2020.9206683"
@@ -69,17 +69,6 @@
       "doi": "10.1016/j.swevo.2020.100735",
       "metrics": {
         "impactFactor": 10.2,
-        "quartile": "Q1"
-      }
-    },
-    {
-      "year": 2019,
-      "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "title": "Towards Transparent and Explainable Swarm Intelligence Systems",
-      "authors": "E. Debie, K. Merrick, M. Garratt, H. A. Abbass",
-      "doi": "10.1109/TSMC.2019.2944014",
-      "metrics": {
-        "impactFactor": 8.7,
         "quartile": "Q1"
       }
     },
@@ -165,35 +154,61 @@
     },
     {
       "title": "Evidence-Based Decision Making",
-      "meta": "Undergraduate · University of Canberra · 2023–present",
-      "highlight": "Focus on data analytics and statistical reasoning for informed decision-making"
+      "meta": "Postgraduate · UNSW Canberra · 2021–2023",
+      "highlight": "Instructor rating <strong>5.43/6</strong> vs School 4.84 & Faculty 4.98 · 100% broad agreement"
     },
     {
-      "title": "Artificial Intelligence",
-      "meta": "Undergraduate/Postgraduate · UNSW Canberra · 2013–2023",
-      "highlight": "Machine learning, neural networks, and intelligent systems fundamentals"
+      "title": "Simulation",
+      "meta": "Undergraduate · UNSW Canberra · 2020–2021",
+      "highlight": "Team-based learning with real-world AI case studies and blended delivery"
+    },
+    {
+      "title": "Database Concepts / OO Databases",
+      "meta": "Undergraduate · Zagazig University · 2015–2016",
+      "highlight": "Designed OO Databases course from scratch: NoSQL, MongoDB, Neo4J. Introduced Moodle LMS"
     }
   ],
   "career": [
     {
       "year": "2023–Present",
       "role": "Senior Lecturer",
-      "org": "University of Canberra",
-      "desc": "Leading research in AI, cyber-physical systems, and teaching cloud computing and data analytics.",
+      "org": "University of Canberra, Australia",
+      "desc": "Coordinating cloud and edge computing units. Supervising undergraduate through postgraduate students. Leading outreach to industry, government, and research institutes.",
       "current": true
     },
     {
-      "year": "2013–2023",
-      "role": "Lecturer / Senior Lecturer",
-      "org": "UNSW Canberra",
-      "desc": "Research focus on swarm intelligence, human-autonomy teaming, and AI for defence applications.",
+      "year": "2020–2023",
+      "role": "Lecturer / Senior Research Fellow",
+      "org": "UNSW Canberra, Australia",
+      "desc": "Designed and delivered Simulation and Evidence-Based Decision Making. Published in IEEE Trans. Cybernetics, IEEE TDSC, and IEEE/CAA JAS. Achieved 100% broad agreement on teaching quality.",
       "current": false
     },
     {
-      "year": "2009–2013",
-      "role": "PhD Candidate",
-      "org": "UNSW Canberra",
-      "desc": "Thesis: Learning Classifier Systems for Multi-Objective Optimization",
+      "year": "2017–2020",
+      "role": "Research Fellow",
+      "org": "UNSW Canberra, Australia",
+      "desc": "Pioneered human-swarm teaming research within a $500K Defence-funded project. Developed transparent AI frameworks for robotic swarming and privacy-preserving GAN methods for EEG signals.",
+      "current": false
+    },
+    {
+      "year": "2017",
+      "role": "Data Scientist",
+      "org": "IP Australia",
+      "desc": "Built machine learning models for intellectual property analytics on complex, large-scale datasets using agile methodologies.",
+      "current": false
+    },
+    {
+      "year": "2016–2017",
+      "role": "Data Analyst",
+      "org": "Justice & Community Safety Directorate, ACT Government",
+      "desc": "Established and managed the ACT Sentencing Database. Contributed to justice system initiatives through data-driven policy analysis.",
+      "current": false
+    },
+    {
+      "year": "2015–2016",
+      "role": "Assistant Professor",
+      "org": "Zagazig University, Egypt",
+      "desc": "Delivered courses to 120–270 students. Introduced Moodle LMS and designed new NoSQL database courses at graduate level.",
       "current": false
     }
   ]
