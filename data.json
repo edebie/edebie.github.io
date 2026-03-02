@@ -1,0 +1,200 @@
+{
+  "publications": [
+    {
+      "year": 2025,
+      "venue": "ICSI 2025",
+      "title": "From Single-tasking Swarming to Multi-tasking Heterogeneous Swarming for Solving Non-uniform Area Coverage Problems",
+      "authors": "S. Mohamed, E. Debie, K. Kasmarik, M. Garratt",
+      "metrics": {
+        "bestPaper": true
+      }
+    },
+    {
+      "year": 2024,
+      "venue": "IEEE/CAA Journal of Automatica Sinica",
+      "title": "Explainable AI Framework for Robotic Swarming Enabling Transparent Human-Swarm Teaming",
+      "authors": "E. Debie, R. Glaubius, J. Campbell, M. Garratt, K. Kasmarik",
+      "doi": "10.1109/JAS.2024.124251",
+      "metrics": {
+        "impactFactor": 15.3,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2023,
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "title": "Privacy-Preserving Generative Adversarial Network for EEG Brain Signals",
+      "authors": "E. Debie, N. Moustafa, M. T. Whitty",
+      "doi": "10.1109/TDSC.2023.3265994",
+      "metrics": {
+        "impactFactor": 7.3,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2022,
+      "venue": "IEEE Transactions on Cybernetics",
+      "title": "MultiModal Fusion for Objective Assessment of Cognitive Workload: A Review",
+      "authors": "E. Debie, R. Roosta, J. Fidock, M. Barlow, K. Merrick, S. Anavatti, M. Garratt, H. A. Abbass",
+      "doi": "10.1109/TCYB.2019.2939399",
+      "metrics": {
+        "impactFactor": 11.8,
+        "quartile": "Q1",
+        "citations": 239
+      }
+    },
+    {
+      "year": 2021,
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "title": "Multimodal Fusion for Resilient Task Allocation in Heterogeneous Swarm",
+      "authors": "E. Debie, K. Merrick, M. Barlow, S. Anavatti, M. Garratt, H. A. Abbass",
+      "doi": "10.1109/TNNLS.2021.3105664",
+      "metrics": {
+        "impactFactor": 14.3,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2020,
+      "venue": "IEEE IJCNN",
+      "title": "A Privacy-Preserving Generative Adversarial Network Method for Securing EEG Brain Signals",
+      "authors": "E. Debie, N. Moustafa, M. T. Whitty",
+      "doi": "10.1109/IJCNN48605.2020.9206683"
+    },
+    {
+      "year": 2020,
+      "venue": "Swarm and Evolutionary Computation",
+      "title": "Evolutionary Multi-Objective Optimization for Intelligent Task Allocation",
+      "authors": "E. Debie, K. Merrick, S. Anavatti, M. Garratt, H. A. Abbass",
+      "doi": "10.1016/j.swevo.2020.100735",
+      "metrics": {
+        "impactFactor": 10.2,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2019,
+      "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "title": "Towards Transparent and Explainable Swarm Intelligence Systems",
+      "authors": "E. Debie, K. Merrick, M. Garratt, H. A. Abbass",
+      "doi": "10.1109/TSMC.2019.2944014",
+      "metrics": {
+        "impactFactor": 8.7,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "year": 2019,
+      "venue": "Pattern Analysis and Applications",
+      "title": "Implications of the Curse of Dimensionality for Supervised Learning Classifier Systems",
+      "authors": "E. Debie, K. Shafi",
+      "doi": "10.1007/s10044-019-00793-z",
+      "metrics": {
+        "impactFactor": 3.9,
+        "quartile": "Q2"
+      }
+    },
+    {
+      "year": 2018,
+      "venue": "IEEE Congress on Evolutionary Computation",
+      "title": "An Analysis of XCS Learning in Continuous Multi-Objective Optimization",
+      "authors": "E. Debie, K. Shafi",
+      "doi": "10.1109/CEC.2018.8477681"
+    },
+    {
+      "year": 2017,
+      "venue": "Genetic Programming and Evolvable Machines",
+      "title": "Scalability and Generalization of Learning Classifier Systems",
+      "authors": "E. Debie, K. Shafi, H. A. Abbass",
+      "doi": "10.1007/s10710-017-9312-5",
+      "metrics": {
+        "impactFactor": 2.3,
+        "quartile": "Q3"
+      }
+    },
+    {
+      "year": 2016,
+      "venue": "IEEE Symposium Series on Computational Intelligence",
+      "title": "Multi-Objective Reinforcement Learning for Autonomous Decision Making",
+      "authors": "E. Debie, K. Shafi, H. A. Abbass",
+      "doi": "10.1109/SSCI.2016.7850215"
+    }
+  ],
+  "grants": [
+    {
+      "year": 2023,
+      "amount": "$48,456",
+      "project": "Psychological & physiological impacts of neighbourhoods",
+      "source": "UNSW AI Seed Grant"
+    },
+    {
+      "year": 2023,
+      "amount": "$68,645",
+      "project": "Heterogeneous Robot Swarms",
+      "source": "UNSW Infrastructure"
+    },
+    {
+      "year": 2022,
+      "amount": "$50,000",
+      "project": "LORA: Autonomous transportation",
+      "source": "UNSW AI Seed Grant"
+    },
+    {
+      "year": 2020,
+      "amount": "$500,000",
+      "project": "Transformative AI & Data Science education environment",
+      "source": "Defence AI Centre"
+    },
+    {
+      "year": 2018,
+      "amount": "$7,600",
+      "project": "GPU hardware for deep learning research",
+      "source": "Nvidia Corporation"
+    }
+  ],
+  "teaching": [
+    {
+      "title": "Enterprise & Cloud Computing",
+      "meta": "Postgraduate · University of Canberra · 2023–present",
+      "highlight": "Student engagement <strong>4.5×</strong> average participation, <strong>5.3×</strong> average material views"
+    },
+    {
+      "title": "Cloud Computing Architecture",
+      "meta": "Postgraduate · University of Canberra · 2023–present",
+      "highlight": "<strong>86%</strong> Agree/Strongly Agree on unit quality · <strong>3.9×</strong> avg participation"
+    },
+    {
+      "title": "Evidence-Based Decision Making",
+      "meta": "Undergraduate · University of Canberra · 2023–present",
+      "highlight": "Focus on data analytics and statistical reasoning for informed decision-making"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "meta": "Undergraduate/Postgraduate · UNSW Canberra · 2013–2023",
+      "highlight": "Machine learning, neural networks, and intelligent systems fundamentals"
+    }
+  ],
+  "career": [
+    {
+      "year": "2023–Present",
+      "role": "Senior Lecturer",
+      "org": "University of Canberra",
+      "desc": "Leading research in AI, cyber-physical systems, and teaching cloud computing and data analytics.",
+      "current": true
+    },
+    {
+      "year": "2013–2023",
+      "role": "Lecturer / Senior Lecturer",
+      "org": "UNSW Canberra",
+      "desc": "Research focus on swarm intelligence, human-autonomy teaming, and AI for defence applications.",
+      "current": false
+    },
+    {
+      "year": "2009–2013",
+      "role": "PhD Candidate",
+      "org": "UNSW Canberra",
+      "desc": "Thesis: Learning Classifier Systems for Multi-Objective Optimization",
+      "current": false
+    }
+  ]
+}

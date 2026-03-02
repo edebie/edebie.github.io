@@ -1,86 +1,197 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/">
-
-<meta name="description" content="Essam Debie&#39;s personal website">
-<meta name="keywords" content="Essam Debie, machine learning, trusted autonomy, cognitive computing, evolutionary algorithm">
-<script src="./index_files/jquery-3.2.1.min.js.download"></script>
-<link rel="stylesheet" href="./index_files/style.css">
-<link rel="stylesheet" href="./index_files/jemdoc.css" type="text/css">
-<title>Essam Debie</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Essam Debie — Cyber-Physical Systems · AI · Swarm Intelligence</title>
+    <meta name="description" content="Dr. Essam Debie — Senior Lecturer at University of Canberra. Research in Cyber-Physical Systems, AI, Human-Autonomy Interaction, and Swarm Intelligence.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_files/style.css">
 </head>
 <body>
-<div id="layout-content">
-<div id="toptitle">
-<h1>Essam Debie</h1>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">E. Debie</a>
+        <div class="nav-links" id="navLinks">
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#grants">Grants</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#career">Career</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-text">
+        <h1>Essam <span>Debie</span></h1>
+        <p class="hero-subtitle">Senior Lecturer · University of Canberra, Australia<br>PhD in Computer Science</p>
+        <div class="hero-tags">
+            <span>Cyber-Physical Systems</span>
+            <span>Artificial Intelligence</span>
+            <span>Human-Autonomy Interaction</span>
+            <span>Swarm Intelligence</span>
+        </div>
+        <div class="hero-links">
+            <a href="mailto:essam.debie@canberra.edu.au" class="btn-primary">
+                <span class="icon icon-mail"></span>
+                Get in Touch
+            </a>
+            <a href="https://scholar.google.com.au/citations?user=_qKNeXwAAAAJ&hl=en" target="_blank" class="btn-secondary">
+                Google Scholar ↗
+            </a>
+            <a href="https://orcid.org/0000-0003-4954-3631" target="_blank" class="btn-secondary">
+                ORCID ↗
+            </a>
+        </div>
+    </div>
+    <div class="hero-photo">
+        <div class="photo-frame">
+            <img src="index_files/essam.jpg" alt="Dr. Essam Debie" onerror="this.style.display='none'; this.parentElement.querySelector('.photo-placeholder').style.display='block';">
+            <div class="photo-placeholder" style="display:none;">ED</div>
+        </div>
+    </div>
+</header>
+
+<!-- RESEARCH -->
+<section class="section" id="research">
+    <div class="section-header fade-in">
+        <span class="section-number">01</span>
+        <h2 class="section-title">Research Focus</h2>
+    </div>
+    <p class="section-intro fade-in">
+        My research programme develops AI-driven systems that bridge computational intelligence with real-world human and robotic operations, anchored in the cyber-physical domain.
+    </p>
+    <div class="research-grid">
+        <div class="research-card fade-in">
+            <h3>Human-Autonomy Interaction</h3>
+            <p>Adaptive AI that modulates assistance to human operators based on real-time cognitive load, measured through EEG and multi-modal physiological signals.</p>
+        </div>
+        <div class="research-card fade-in">
+            <h3>Swarm Intelligence & Multi-Robot Systems</h3>
+            <p>Shepherding, coordination, and path planning for UAV/UGV swarms, including human-swarm teaming transparency and trust architectures.</p>
+        </div>
+        <div class="research-card fade-in">
+            <h3>Explainable & Transparent AI</h3>
+            <p>Interpretable decision-making frameworks for autonomous systems, enabling meaningful human oversight in high-stakes operations.</p>
+        </div>
+        <div class="research-card fade-in">
+            <h3>AI for Cybersecurity</h3>
+            <p>Privacy-preserving machine learning (GANs, federated learning), EEG-based biometric authentication, and intrusion detection for IoT environments.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PUBLICATIONS (loaded dynamically) -->
+<section class="pub-section" id="publications">
+    <div style="max-width: 1100px; margin: 0 auto;">
+        <div class="section-header fade-in">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Publications</h2>
+        </div>
+        <div id="publications-container"></div>
+        <div class="pub-more fade-in">
+            <a href="https://scholar.google.com.au/citations?user=_qKNeXwAAAAJ&hl=en" target="_blank">
+                View complete publication list on Google Scholar
+                <span class="icon-external"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- GRANTS (loaded dynamically) -->
+<section class="section" id="grants">
+    <div class="section-header fade-in">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Research Grants & Funding</h2>
+    </div>
+    <div class="grants-list" id="grants-container"></div>
+</section>
+
+<!-- TEACHING (loaded dynamically) -->
+<section class="teaching-section" id="teaching">
+    <div style="max-width: 1100px; margin: 0 auto;">
+        <div class="section-header fade-in">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Teaching</h2>
+        </div>
+        <p class="section-intro fade-in">
+            Consistently scoring above school and faculty averages with 100% broad agreement on teaching quality. Experienced in curriculum design and delivery at undergraduate and postgraduate levels.
+        </p>
+        <div class="teaching-grid" id="teaching-container"></div>
+    </div>
+</section>
+
+<!-- CAREER (loaded dynamically) -->
+<section class="section" id="career">
+    <div class="section-header fade-in">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Career</h2>
+    </div>
+    <div class="timeline" id="career-container"></div>
+</section>
+
+<!-- PHD CTA -->
+<div class="cta-section">
+    <div class="cta-box fade-in">
+        <div class="cta-content">
+            <h2>Work With Me</h2>
+            <p>I'm actively seeking motivated PhD candidates interested in pushing the boundaries of AI, swarm intelligence, human-autonomy interaction, and cyber-physical systems. If you're passionate about cutting-edge research with real-world impact, let's connect.</p>
+            <div class="cta-topics">
+                <span>Explainable AI</span>
+                <span>Multi-Agent Systems</span>
+                <span>Privacy-Preserving ML</span>
+                <span>Human-Swarm Teaming</span>
+                <span>Cognitive Load Assessment</span>
+            </div>
+            <a href="mailto:essam.debie@canberra.edu.au" class="cta-btn">
+                Get in Touch
+                <span class="icon-external"></span>
+            </a>
+        </div>
+    </div>
 </div>
-<table class="imgtable"><tbody><tr><td>
-<img src="./index_files/essam.jpg" alt="Essam Debie" width="320px">&nbsp;</td>
-<td align="left"><p>Senior Lecturer
-<br>University of Canberra, ACT, Australia
-<br><br></p>
-<ul>
-<li><p>Email: <b>essam</b>[dot]<b>debie</b>[at]<b>canberra</b>[dot]<b>edu</b>[dot]<b>au</b></p>
-</li>
-<li><p><a href="https://scholar.google.com.au/citations?user=_qKNeXwAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.scopus.com/authid/detail.uri?authorId=55533520600">Scopus</a> | <a href="https://www.researchgate.net/profile/Essam_Debie">Research Gate</a> | <a href="https://github.com/edebie">GitHub</a></p>
-</li>
-</ul>
-</td></tr></tbody></table>
-<p>I am senior research fellow with the school of Engineering and Information Technology - University of New South Wales - Canberra. My research interests lie in the area of Artificial Intelligence, human robot/swarm interactions, spanning the design and implementation, studying the impact of such interactions on human performance, developing methodologies for improving mission effectiveness of teams comprising humans and robots.</p>
-<h2>Selected Publications</h2>
-<p>The following papers provide a good overview of my research:</p>
-<div class="infoblock">
-<div class="blockcontent">
-<ul>
-<li><p><b>Essam Debie</b>, Raul F.R., Fidock, J., Barlow, M., Merrick, K., Anavatti, S., Garratt, M., and Abbass H.A., “MultiModal Fusion for Objective Assessment of Cognitive Workload: A Review”. IEEE Transactions on Cybernetics, accepted to appear, 2019.</p>
-</li>
-<li><p><b>Essam Debie</b>, and Kamran Shafi. "Implications of the curse of dimensionality for supervised learning classifier systems: theoretical and empirical analyses." Pattern Analysis and Applications 22.2 (2019): 519-536.</p>
-</li>
-<li><p><b>Essam Debie</b>, Kamran Shafi, Kathryn Merrick, and Chris Lokan, “On Taxonomy and Evaluation of Feature Selection based Learning Classifier System Ensemble Approaches for Data Mining Problems”, in Computational Intelligence, 2016</p>
-</li>
-<li><p><b>Essam Debie</b>, Kamran Shafi, Kathryn Merrick, and Chris Lokan, “Performance analysis of rough set ensemble of learning classifier systems with differential evolution based rule discovery”, in Evolutionary Intelligence, 2016</p>
-</li>
-<li><p><b>Essam Debie</b>, Kamran Shafi, Kathryn Merrick, and Chris Lokan,  “Reduct based ensemble of learning classifier system for real-valued classification problems”, in Computational Intelligence and Ensemble Learning (CIEL), IEEE Symposium on. IEEE, 2013. </p>
-</li>
-</ul>
-</div></div>
-<p>The full list can be found on <a href="https://scholar.google.com.au/citations?user=_qKNeXwAAAAJ&hl=en">Google Scholar</a></p>
-<h2>Teaching</h2>
-<ul>
-<li><p>Evidence based Decision Making (Semester 1, 2022)</p>
-<li><p>Introduction to Data Science (short course, 2021)</p>
-<li><p>Simulation (Semester 1, 2020)</p>
-<li><p>Database Concepts (Semester 2, 2016)</p>
-<li><p>Object Oriented Databases (Semester 2, 2016)</p>
-</li>
-</ul>
-<h2>Professional Activities</h2>
-<p>Editorial assistant for the IEEE Transactions on Artificial Intelligence
-<p>I regularly review for a number of international journals and conferences including:
-  <ul>
-<li><p>IEEE Transactions on Cybernetics</p>
-<li><p>IEEE Transactions on Emerging Topics in Computational Intelligence</p>
-<li><p>ACM Computing Surveys</p>
-<li><p>Artificial Intelligence Review</p>
-<li><p>Frontiers in Robotics and AI</p>
-<li><p>International Journal of Information Technology and Decision Making</p>
-<li><p>Annual conference companion on Genetic and evolutionary computation</p>
-<li><p>IEEE Congress on Evolutionary Computation (CEC)</p>
-<li><p>Australasian Conference on Artificial Life and Computational Intelligence</p>
-</li>
-</ul>
- 
-<div id="footer">
-<div id="footer-text">
-</div>
-</div>
-</div>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="./index_files/js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-54334022-5');
-</script>
-</body></html>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <div class="section-header fade-in">
+        <span class="section-number">06</span>
+        <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-grid">
+        <a href="mailto:essam.debie@canberra.edu.au" class="contact-card fade-in">
+            <div class="contact-icon">✉️</div>
+            <h3>Email</h3>
+            <p>essam.debie@canberra.edu.au</p>
+        </a>
+        <a href="https://scholar.google.com.au/citations?user=_qKNeXwAAAAJ&hl=en" target="_blank" class="contact-card fade-in">
+            <div class="contact-icon">🎓</div>
+            <h3>Google Scholar</h3>
+            <p>View Publications</p>
+        </a>
+        <a href="https://orcid.org/0000-0003-4954-3631" target="_blank" class="contact-card fade-in">
+            <div class="contact-icon">🔗</div>
+            <h3>ORCID</h3>
+            <p>0000-0003-4954-3631</p>
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Dr. Essam Debie. All rights reserved.</p>
+</footer>
+
+<script src="index_files/js"></script>
+
+</body>
+</html>
